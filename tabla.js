@@ -20,6 +20,7 @@
                 multiplo.push(producto);
             }
             tabla.push(multiplo);
+            console.log(tabla.push(multiplo));
         }
         for(iteracionTabla=0;iteracionTabla<tabla.length;iteracionTabla++){
             multiplicar = iteracionTabla + 1;
@@ -39,5 +40,5 @@
             printResultado+= '    </div>'
    
         }
-        document.getElementById('resultado-tablas').innerHTML = printResultado
+        document.getElementById('resultado-tablas').innerHTML = printResultado;
     });
